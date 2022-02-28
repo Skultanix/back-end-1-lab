@@ -6,6 +6,7 @@ const app = express()
 
 //dictating that JSON objects are used in server response
 app.use(express.json())
+app.use(cors())
 
 //creation of endpoints
 app.get(`/api/users`, (req, res) => {
