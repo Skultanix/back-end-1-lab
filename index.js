@@ -1,6 +1,6 @@
 //importing express and cors
-const express = requires(`express`)
-const cors = requires(`cors`)
+const express = require(`express`)
+const cors = require(`cors`)
 //app variable declaration
 const app = express()
 
